@@ -1,0 +1,54 @@
+/* styles.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+/* Existing styles below remain unchanged */
+.login-form, .dashboard-header, nav, .course-list, .forum, .gradebook, .certificate {
+  margin-bottom: 20px;
+}
+input, select, button, textarea {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #1565c0;
+}
+nav button {
+  margin-right: 8px;
+}
+.course-list, .assignment-list, .forum-posts {
+  list-style: none;
+  padding: 0;
+}
+.course-list li, .assignment-list li, .forum-posts li {
+  background: #f1f1f1;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+}
